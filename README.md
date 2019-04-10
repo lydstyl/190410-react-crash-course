@@ -1,4 +1,10 @@
-https://www.youtube.com/watch?v=Ke90Tje7VS0 0:26
+https://www.youtube.com/watch?v=Ke90Tje7VS0 1:10
+
+JSX
+Rendering Lists
+Conditional Rendering
+Handling Events
+Updating the State
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
