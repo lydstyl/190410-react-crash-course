@@ -7,6 +7,11 @@ class Counter extends Component {
     // we can make Ajax call here based on prev props and state
   }
 
+  componentWillUnmount() {
+    console.log("Counter - Unmount");
+    // clean timers or listeners here
+  }
+
   render() {
     console.log("Counter - Redered");
     return (
