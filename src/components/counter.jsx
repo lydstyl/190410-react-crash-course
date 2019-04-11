@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
+  componentDidUpdate(prevProps, prevState) {
+    console.log("prevProps", prevProps);
+    console.log("prevState", prevState);
+    // we can make Ajax call here based on prev props and state
+  }
+
   render() {
     console.log("Counter - Redered");
     return (
