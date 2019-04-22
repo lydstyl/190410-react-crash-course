@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 https://www.youtube.com/watch?v=Ke90Tje7VS0 0:22
+=======
+Now on Heroku : https://react-crash-course-1904.herokuapp.com/
+
+Learned from :
+https://www.youtube.com/watch?v=Ke90Tje7VS0 1:28
+
+JSX
+Rendering Lists
+Conditional Rendering
+Handling Events
+Updating the State
+
+Pass Data
+Raise and Handle Events
+Multiple Components in Sync
+Functional Components
+Lifecycle Hooks
+>>>>>>> counter-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
