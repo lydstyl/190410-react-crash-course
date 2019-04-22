@@ -1,3 +1,6 @@
+Now on Heroku : https://react-crash-course-1904.herokuapp.com/
+
+Learned from :
 https://www.youtube.com/watch?v=Ke90Tje7VS0 1:28
 
 JSX
