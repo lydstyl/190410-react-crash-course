@@ -23,6 +23,12 @@ class App extends Component {
     console.log("App - Mounted");
   }
 
+  handleAdd = () => {
+    const { counters } = this.state;
+    counters.push({ id: counters.length + 1, value: 0 });
+    this.setState({ counters });
+  };
+
   handleDelete = counterId => {
     const counters = this.state.counters.filter(
       counter => counter.id !== counterId
@@ -56,6 +62,7 @@ class App extends Component {
         <main className="container">
           <Counters
             counters={this.state.counters}
+            onAdd={this.handleAdd}
             onReset={this.handleReset}
             onIncrement={this.handleIncrement}
             onDelete={this.handleDelete}
