@@ -15,7 +15,8 @@ class Counter extends Component {
   render() {
     console.log("Counter - Redered");
     return (
-      <div>
+      <div className="square">
+        <input type="text" />
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
